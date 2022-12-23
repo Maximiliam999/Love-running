@@ -71,7 +71,7 @@ h1,h2 {
         transform: scale(1);
     }
     to {
-        transform: scale(1.01);
+        transform: scale(1);
     }
      
 }
@@ -174,10 +174,18 @@ hr {
 }
 
 #times {
-    background: url('../css/images/dublin-city.webp');
+    background-image: url('./images/dublin-city.webp');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
     width: 100%;
-    height: 100%;
+    overflow: hidden;
+}
+
+#times div {
+    color: #fafafa;
+    background-color: rgba(0, 0, 0, .6);
+    width: 20%;
+    height: 300px;
+    float: left;
 }
